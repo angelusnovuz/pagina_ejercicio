@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap');
+
+:root {
+    --naranja: #939A3B;
+    --azul: #AD724E;
+    --negro: #303841;
+    --blanco: #f5f5f5;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--blanco);
+    color: var(--negro);
+}
+
+h1, h2, h3, h4{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+	color: var(--naranja);
+}
+
+h2 {
+	color: var(--azul);
+}
+
+li a {
+	color: #303841;
+	font-weight: 800;
+}
+
+a:hover {
+	color: var(--naranja);
+}
+
+/* NAVBAR */
+.nav-link{
+	color: var(--azul);
+}
+
+
+/* HERO */ 
+.btn {
+	background-color: var(--naranja);
+	border-radius: 10px;
+	color: var(--blanco);
+	font-weight: bold;
+}
+
+.btn:hover {
+	background-color: var(--azul);
+}
+
+.hero-logo{
+	height: 50px;
+	object-fit: contain;
+	object-position: center;
+}
+
+.hero-img {
+	height: calc(100vh - 76px);
+	object-fit: cover;
+	object-position: center;
+}
+
+.hero-intro {
+	padding-top: 10px;
+	text-align: left;
+}
+
+
+/* QUOTES*/
+.citas {
+	background-color: var(--azul);
+}
+
+.quote-img {
+	width: 100%;
+	object-fit: contain;
+}
+
+/* ABOUT ME */
+.about-img {
+	width: 450px;
+	height: 150px;
+	object-fit: contain;
+}
+
+
